@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>
+            Practica 1
+        </title>
+    </head>
+    <body>
+        <div class="header">
+            <h1>Calculo de IMC</h1>
+        </div>
+        <div class="container" id = "container">
+            <form>
+                <label for="estatura">Estatura (Mts)</label>
+                <input type="number" id="estatura" name="estatura" class="formulario" required>
+                <label for="estatura">Peso (KG)</label>
+                <input type="number" id="Peso" name="Peso" class="formulario" required>
+                <input type="button" name="Calcular" value="Calcular" onclick="imc()" class="button">
+                <input type="button" name="Limpiar" id="Limpiar" value="Limpiar" onclick="limpiar()" class="button" disabled>
+            </form>
+            <div class="resultado" id="resultado">
+
+            </div>
+        </div>
+    </body>
+    <script src="script.js"></script>
+</html>
